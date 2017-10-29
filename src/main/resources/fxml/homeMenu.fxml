@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0"
+	prefWidth="350.0" spacing="20.0" xmlns="http://javafx.com/javafx/8"
+	xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.blanchard.musicstore.controller.HomeViewController">
+	<children>
+		<Label alignment="TOP_CENTER" text="Welcome to My Music Store App!" />
+		<Button id="manageCustomers" alignment="CENTER" contentDisplay="CENTER"
+			maxHeight="-Infinity" minHeight="-Infinity" mnemonicParsing="false"
+			onAction="#manageCustomersClicked" prefHeight="40.0" text="Manage Customers"
+			textAlignment="CENTER">
+			<padding>
+				<Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+			</padding>
+		</Button>
+		<Button id="manageInventory" maxHeight="-Infinity" maxWidth="-Infinity"
+			minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false"
+			onAction="#manageInventoryClicked" prefHeight="40.0" prefWidth="150.0"
+			text="Manage Inventory">
+			<padding>
+				<Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+			</padding>
+		</Button>
+		<Button id="manageOrders" disable="true" maxHeight="-Infinity"
+			maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+			mnemonicParsing="false" onAction="#manageOrdersClicked" prefHeight="40.0"
+			prefWidth="150.0" text="Manage Orders" />
+		<Button id="exit" maxWidth="-Infinity" minWidth="-Infinity"
+			mnemonicParsing="false" onAction="#exitButtonClicked" prefWidth="150.0"
+			text="Exit">
+			<padding>
+				<Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+			</padding>
+		</Button>
+	</children>
+	<padding>
+		<Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+	</padding>
+</VBox>
