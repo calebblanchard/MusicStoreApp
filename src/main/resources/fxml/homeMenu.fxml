@@ -29,7 +29,7 @@
 		</Button>
 		<Button id="manageOrders" disable="true" maxHeight="-Infinity"
 			maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-			mnemonicParsing="false" onAction="#manageOrdersClicked" prefHeight="40.0"
+			mnemonicParsing="false" prefHeight="40.0"
 			prefWidth="150.0" text="Manage Orders" />
 		<Button id="exit" maxWidth="-Infinity" minWidth="-Infinity"
 			mnemonicParsing="false" onAction="#exitButtonClicked" prefWidth="150.0"
